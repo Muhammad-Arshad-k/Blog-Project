@@ -1,11 +1,10 @@
 <%- include("partials/header"); -%> 
 <h1>Journal</h1>
-<p><%=content%></p>
-
-
+<h4>Hey there...<br> This the place were you can add your blog your thought and store and update your blog whenever needs!!!!</h4>
+<hr/>
 <% posts.forEach(function(post){ %>
-    <h1><%=post.title%></h1>
-    <p><%=content.substring(0, 100)+"..."%><a class="btn btn-dark btn-sm" href="/posts/<%=post.title%>">read more</a></p>
+    <h2><%=post.title%></h2>
+    <p><%=post.body.substring(0, 100)+"..."%><a class="btn btn-dark btn-sm" href="/posts/<%=post._id%>">read more</a></p>
 <%  }); %>
 <a href="/compose"><button type="button" class="btn btn-primary">Compose</button></a>
 <%- include("partials/footer"); -%> 

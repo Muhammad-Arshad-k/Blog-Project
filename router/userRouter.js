@@ -11,6 +11,6 @@ router.get("/about",userController.getAbout)
 router.get("/contact",userController.getContact)
 router.get("/compose",userController.compose)
 router.post("/compose",userController.postCompose )
-router.get('/posts/:postName',userController.getPost)
+router.get('/posts/:id',userController.getPost)
 
 module.exports = router  

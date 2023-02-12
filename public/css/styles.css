@@ -1,7 +1,10 @@
-
-html{
-    background-color:chocolate;
-}
+body{
+    /* background-color: #E4E9FD; */
+    background-image: -webkit-linear-gradient(55deg,#866dae 30%,#83e3b9 90%);
+    color:#000000;
+    /* font-family: 'helvetica neue'; */
+    position: relative;
+  }
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -15,9 +18,10 @@ html{
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    background-image: -webkit-linear-gradient(60deg,#7d9ace 30%,#66beb9 50%);
 }
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #03120f !important;
 }
 
 .footer-padding {
